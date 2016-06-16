@@ -1,0 +1,285 @@
+html,body{
+
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+.body{
+	/*width: 100%;
+	height: 100%;*/
+	background-image: url(../CONTENT/AppContent/Login_Background.jpg);
+	background-size: cover;
+	
+}
+
+
+
+/*login*/
+
+.logo{
+	max-width: 100px;
+	max-height: 100px;
+
+}
+.logo_social{
+	max-width: 70px;
+	max-height: 70px;
+
+}
+
+.login{
+	display: block;
+	width: 400px;
+	height: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	
+	
+	background-color: white;
+
+}
+
+.formLogin{
+	margin-top: 40px;
+
+}
+
+
+
+/*home*/
+
+.nav_fixed{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	z-index: 999;
+	
+
+
+}
+
+.logo_home{
+
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: white;
+
+}
+
+.notification_icon{
+
+	height: 30px;
+	width: 30px;
+	
+}
+/*.float_search{
+	width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: blue;
+    position: fixed;
+    z-index: 1000;
+    bottom: 10px;
+    left: 5px;
+}
+
+.menu_search_float{
+	height: 200px;
+	width: 70px;
+	background-color: red;
+	position: fixed;
+    z-index: 1000;
+    bottom: 85px;
+    left: 5px;
+
+}*/
+
+/*.img_btn{
+	margin: auto auto auto auto;
+
+}*/
+
+
+
+/*container body */
+
+/*.container_body{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0px;
+}*/
+
+
+
+
+a{
+	color: #e1e1e1;
+	text-decoration: none;
+}
+
+&:hover{
+	color: lighten(#e1e1e1,20%);
+
+}
+
+/*li {
+	height: 20px;
+	display: inline-block;
+	padding: 5px 10px;
+	float: left;
+
+		
+}
+*/
+/*menu inicio*/
+
+.navigation{
+
+	padding: 0;
+	margin: 0;
+	background: #333;
+	position: fixed;
+	bottom: 50px;
+	z-index: 999;
+	width: 15px;
+	height: 350px;
+
+	
+}
+
+.category{
+	
+	width: inherit;
+	display: inline-block;
+	padding: 0px;
+	float: left;
+
+}
+
+#cat1{
+	background-color: red;
+}
+#cat2{
+background-color: blue;
+}
+#cat3{
+background-color: green;
+}
+#cat4{
+background-color: yellow;
+}
+#cat5{
+background-color: black;
+}
+
+
+
+/*menu fin*/
+.active{
+	background-color: red;
+}
+
+
+
+.main{
+	margin-top: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.slide{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	padding-top: 50px;
+	background-attachment: fixed;
+}
+
+.button{
+	display: block;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 25px;
+	left: 50%;
+	margin-left: -25px;
+	background-image: url(../CONTENT/AppContent/slide1/arrow.png);
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+}
+
+
+
+#slide1{
+	background-image: url(../CONTENT/AppContent/slide1/slide1.jpg);
+	
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+	background-repeat: no-repeat;
+}
+
+
+#slide2{
+	background-image: url(../CONTENT/AppContent/slide2/slide2.jpg);
+	
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+	z-index: 9;
+}
+
+#slide3{
+
+	background-color: #b6c10b;
+}
+
+#slide4{
+	background-image: url(../CONTENT/AppContent/slide4/slide4.jpg);
+	
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+	z-index: 10;
+
+}
+
+#slide5{
+	background-image: url(../CONTENT/AppContent/slide1/slide1.jpg);
+	
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.SlideShow{
+	width: 100%;
+	height: 100%;
+
+}
+
+.slideIMG{
+	width: 100%;
+	height: 100%;
+
+}
+
+
+
+
+/* content front page*/
+#CityN{
+	width: 100%;
+	height: 50px;
+	bottom: 5px;
+	background-color: blue;
+
+}
+
+/*------------*/
